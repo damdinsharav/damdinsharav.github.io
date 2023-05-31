@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="lab3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/14/Maharishi_International_University_logo_1.png" alt="logo" class="logo"/>
+        </div>
+        <div>
+            <p>Welcome, Tina</p>    
+        </div>
+        <div>
+            <button>Log out</button>    
+        </div>
+    </div>
+
+    <div class="container2">
+        <h3>Product list</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>NodeJS</td>
+                <td>9.99</td>
+                <td>8</td>
+                <td><button type="button" class="btn btn-primary"><span class="bi bi-cart"></span> Purchase</button></td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>19.99</td>
+                <td>5</td>
+                <td><button type="button" class="btn btn-primary"><span class="bi bi-cart"></span> Purchase</button></td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>18</td>
+                <td><button type="button" class="btn btn-primary"><span class="bi bi-cart"></span> Purchase</button></td>
+            </tr>
+        </table>
+        <h3>Your shopping cart</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>NodeJS</td>
+                <td>9.99</td>
+                <td>9.99</td>
+                <td><button type="button">-</button></button><input type=number min=1 max=10 value="1"><button type="button">+</button></button></td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>299.90</td>
+                <td><button type="button">-</button></button><input type=number min=1 max=10 value="10"><button type="button">+</button></button></td>
+            </tr>
+        </table>
+
+        <div class="order">
+            <h3>Total: 300.98$</h3>
+            <button type="button">Place Order</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.container {
+    margin: 1% 2% 0% 2%;
+    padding: 1% 2%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 {
+    margin: 0% 2%;
+    padding: 1% 3%;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+
+.logo {
+    height: 50px;
+    max-width: auto;
+}
+
+.order {
+    width: 20%;
+    margin-left: 60%;
+}
+
+th, td{
+    border: 1px solid grey;
+    text-align: center;
+}
